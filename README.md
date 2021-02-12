@@ -16,7 +16,7 @@
 
 
 * Python Version<br />
-  Todo<br />
+  Python 3<br />
 
 * System dependencies<br />
   Refer requirements.txt
