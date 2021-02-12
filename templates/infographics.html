@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+{% endblock %}
+
+{% block container %}
+<h1>Infographics </h1>
+<p>Graphical respresentation of data across various factors.</p>
+<div class="row">
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic1.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center">Blue Collar Jobs State-Wise</p>
+    </div>
+
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic2.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center">Migratory Population</p>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic3.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center">Skilled Blue Collar Jobs Pay Chart</p>
+    </div>
+
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic4.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center">Wage Inflation over the years.</p>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic5.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center">Loss of Jobs</p>
+    </div>
+
+    <div class="col-sm-6">
+        <img class="img-responsive center-block" id="graph-picture" src="{{ url_for('static', filename='img/infographic6.jpeg') }}" style="max-width: 350px; max-height: 350px">
+        <br>
+        <p class="text-center"> Salary division by jobs.</p>
+    </div>
+</div>
+<br>
+
+
+{% endblock%}
