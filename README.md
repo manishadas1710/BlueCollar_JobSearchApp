@@ -11,7 +11,7 @@
     Username: admin<br />
     Password: password<br />
   - For Applicant<br />
-    Username: johndoe<br />
+    Username: manisha<br />
     Password: password<br />
 
 
