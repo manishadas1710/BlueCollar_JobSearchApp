@@ -1,6 +1,5 @@
 # BlueCollar Job Search App
 
-## Prototype for Engage WIT Hackathon.
 ### Built using Python Flask.
 
 * Hosted on:
